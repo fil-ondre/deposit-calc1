@@ -11,7 +11,7 @@ int main(){
 	 scanf("%f", &sum);
 	printf ("Vvedite srok vklada: ");
 	 scanf("%d", &term);
-	if ((term>=0) && (term<=4365) && (sum>=10000)){
+	if ((term>=0) && (term<=365) && (sum>=10000)){
 	 	
 		 if (term<=30) {
 	 		income=-sum/10;
